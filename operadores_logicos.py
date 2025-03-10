@@ -22,10 +22,10 @@ print ("El resultado de operar con or es", y )
 Jerarquia de precedencia de operadores
 (logicos inclusive)
 
-1.         ()
-2.          **
-3.         *, /, %,
-4.         +, -
+1.      ()
+2.      **
+3.      *, /, %,
+4.      +, -
 5.     >, <, >=, <=, !=,
 6.      not
 7.      and
@@ -36,3 +36,6 @@ Jerarquia de precedencia de operadores
 #ejemplo 4: Jerarquia de operadores
 y= False and not True or False
 print ("El resultado de operar con jerarquia es", y)
+
+#ejemplo 5: operadores relacionales y logicos 
+y= not 3 > 4 and 4 == 4 or 3 < 2
